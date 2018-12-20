@@ -1,0 +1,10 @@
+public class FirstClassOnGitHub{
+  private final String NAME = "websiteyu";
+  private final String START_DATE_STRING = "2018-12-20 22:41:12";
+  public static String getJoinAge(){
+    return new Date();
+  }
+  public String toString(){
+    return NAME+"s github.";
+  }
+}
